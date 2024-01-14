@@ -1,17 +1,17 @@
 {
   "version": "1.0",
-  "name": "My Blog",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "name": "Sabda Literasi Palu",
+  "short_name": "Sabda Literasi Palu",
+  "description": "Sabda Literasi merupakan tempat penjualan Ebook Berbahasa Indonesia terlengkap dengan harga dua kali lebih murah dan tersedia dalam bentuk PDF.",
   "dir": "auto",
-  "lang": "en-US",
+  "lang": "id-ID",
   "orientation": "any",
   "start_url": "/?utm_source=homescreen",
   "scope": "/",
   "display": "standalone",
   "prefer_related_applications": false,
   "background_color": "#fff",
-  "theme_color": "#fff",
+  "theme_color": "#f26926",
   "icons": [
     {
       "src": "icons/favicon.ico",
@@ -90,10 +90,10 @@
   ],
   "shortcuts": [
     {
-      "name": "My Shortcut 1",
-      "short_name": "My Shortcut 1",
-      "description": "My Shortcut 1 description goes here...",
-      "url": "/search/label/my-shortcut-1?utm_source=homescreen",
+      "name": "Artikel",
+      "short_name": "Artikel",
+      "description": "Kumpulan Artikel yang diterbitkan oleh sabda literasi palu",
+      "url": "/artikel/?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-icon-192x192.png",
@@ -102,10 +102,10 @@
       ]
     },
     {
-      "name": "My Shortcut 2",
-      "short_name": "My Shortcut 2",
-      "description": "My Shortcut 2 description goes here...",
-      "url": "/search/label/my-shortcut-2?utm_source=homescreen",
+      "name": "Produk",
+      "short_name": "Produk",
+      "description": "Kumpulan Produk yang diterbitkan oleh sabda literasi palu",
+      "url": "/produk/?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-icon-192x192.png",
