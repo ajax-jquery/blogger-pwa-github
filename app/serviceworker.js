@@ -2,7 +2,7 @@
  * PWA build by Fineshop Design
  */
 importScripts(
-  "https://storage.googleapis.com/workbox-cdn/releases/7.0.0/workbox-sw.js"
+  "https://storage.googleapis.com/workbox-cdn/releases/7.3.0/workbox-sw.js"
 );
 
 // Configurations for PWA App
@@ -37,7 +37,10 @@ if (typeof workbox !== "undefined") {
   ]);
 
   workbox.routing.setDefaultHandler(new workbox.strategies.NetworkOnly());
-
+workbox.routing.registerRoute(
+  new RegExp("/(wp-content|api)/.*"),
+  new workbox.strategies.NetworkOnly()
+);
   workbox.routing.registerRoute(
     new RegExp(".(?:css|js|png|gif|jpg|svg|ico)$"),
     new workbox.strategies.CacheFirst({
